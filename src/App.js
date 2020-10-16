@@ -1,4 +1,4 @@
-import React, {createContext, useEffect, useState} from 'react';
+import React, {createContext, useState} from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './Components/Home/Home/Home';
@@ -11,6 +11,7 @@ import AddAdmin from './Components/AdminDashboard/AddAdmin/AddAdmin';
 import AddService from './Components/AdminDashboard/AddService/AddService';
 import AllServices from './Components/AdminDashboard/AllServices/AllServices';
 import Dashboard from './Components/Shared/Dashboard/Dashboard';
+import NoMatch from './Components/NoMatch/NoMatch';
 
 export const UserContext = createContext();
 
@@ -67,6 +68,10 @@ function App() {
           <PrivateRoute exact path="/dashboard/c-order/:pName">
            <CustomerOrder />
           </PrivateRoute>
+
+          <Route exact path="*">
+            <NoMatch />
+          </Route>
         </Switch>
       </Router>
     </UserContext.Provider>
