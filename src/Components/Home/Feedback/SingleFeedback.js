@@ -1,10 +1,14 @@
 import React from 'react';
 import './SingleFeedback.css';
+import loading from '../../../images/loading.gif';
 
 const SingleFeedback = ({feedbackData}) => {
     return (
         <div>
-            <div className="row m-0 p-0 d-flex justify-content-between">
+            <div className="row m-0 p-0 d-flex justify-content-around">
+                {
+                    feedbackData.length === 0 && <img className="mt-3" style={{width: '200px', height: '150px'}} src={loading} alt=""/>
+                }
                 {
                     feedbackData.map(data => 
                     <div className="feedback-card col-md-3 col-sm-12 mb-2">
