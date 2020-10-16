@@ -1,0 +1,14 @@
+.feedback-card{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #555;
+    box-sizing: content-box !important;
+    border-radius: 8px;
+}
+
+.feedback-card:hover {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 31px 11px rgba(128,128,128,0.53);
+    transition: .2s ease-in;
+}

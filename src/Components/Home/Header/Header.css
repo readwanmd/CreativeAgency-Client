@@ -1,0 +1,9 @@
+.header-section{
+    height: 75vh;
+    width: 100%;
+    background-image: linear-gradient(-2deg, transparent 10%, #FBD062 0%);
+}
+
+img{
+    width: 624px;
+}
