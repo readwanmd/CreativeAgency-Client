@@ -13,7 +13,7 @@ const SingleFeedback = ({feedbackData}) => {
                     feedbackData.map(data => 
                     <div className="feedback-card col-md-3 col-sm-12 mb-2">
                         <div className="d-flex align-items-center">
-                            <img style={{ height: '64px', width: '64px'}} src={data.img} alt=""/>
+                            <img className="rounded-circle" style={{ height: '64px', width: '64px'}} src={data.img} alt=""/>
                             <div className="ml-3">
                                 <h6>{data.name}</h6>
                                 <h6>{data.companyAndDesignation}</h6>
