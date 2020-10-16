@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from '../Carousel/Carousel';
+import CarouselSlider from '../CarouselSlider/CarouselSlider';
 import Contact from '../Contact/Contact';
 import Feedback from '../Feedback/Feedback';
 import Header from '../Header/Header';
@@ -10,7 +10,7 @@ const Home = () => {
         <div>
           <Header />
           <Services />
-          <Carousel />
+          <CarouselSlider />
           <Feedback />
           <Contact /> 
         </div>
