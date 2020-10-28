@@ -2,7 +2,7 @@
 
 ## Features
 This is a responsive online service selling
-SPA. It’s developed by using React, MongoDB, Firebase, JS, ES6, React, React-Router, Html, CSS and reactBootstrap.
+SPA. It’s developed by using React, React-Router, Html, CSS, reactBootstrap and Firebase.
 
 
 #### Client 
