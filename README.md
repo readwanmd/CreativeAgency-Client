@@ -1,4 +1,4 @@
-# Creative Agency - A service selling SPA
+# Creative Agency - A service selling SPA  [`LIVE`](https://creative-agency-20.web.app/)
 
 ## Features
 This is a responsive online service selling
@@ -19,5 +19,4 @@ SPA. It’s developed by using React, React-Router, Html, CSS, reactBootstrap an
 
 <br />
 
-### [`LIVE`](https://creative-agency-20.web.app/)
 ### [`BACKEND REPOSITORY`](https://github.com/readwanmd/CreativeAgency-Server)
