@@ -15,8 +15,7 @@ SPA. It’s developed by using React, MongoDB, Firebase, JS, ES6, React, React-R
 - Admin can add new services and manage users order.
 - An admin add more admins.
 - Admin will be able to manage the status of users order.
-- Admin will be able to see all of their pending, ongoing or finished order status.
-- Admin will be able to see all of their pending, ongoing or finished order status.
+- Admin will be able to see all of their pending, ongoing or finished order status
 
 
 ### [`Backend Repository`](https://github.com/readwanmd/CreativeAgency-Server)
