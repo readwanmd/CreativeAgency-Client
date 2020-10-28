@@ -3,7 +3,7 @@ import ContactForm from '../ContactForm/ContactForm';
 
 const Contact = () => {
     return (
-        <div className="mt-5" style={{backgroundColor: '#FBD062'}}>
+        <div id="Contact" className="mt-5" style={{backgroundColor: '#FBD062'}}>
             <div className="row m-0 p-0">
                 <div className="col-md-5 col-sm-12 pl-5">
                     <h1 className="mt-5">Let us handle your<br/>

@@ -19,15 +19,15 @@ const NavigationBar = () => {
                     <Nav.Link>
                         <Link style={{ textDecoration: 'none', color: '#000'}}to='/home'>Home</Link>
                     </Nav.Link>
-                    <Nav.Link>
+                    {/* <Nav.Link disabled>
                         <Link style={{ textDecoration: 'none', color: '#000'}} to='/portfolio'>Portfolio</Link>
                     </Nav.Link>
-                    <Nav.Link>
+                    <Nav.Link disabled>
                         <Link style={{ textDecoration: 'none', color: '#000'}} to='/team'>Team</Link>
                     </Nav.Link>
-                    <Nav.Link>
+                    <Nav.Link disabled>
                         <Link style={{ textDecoration: 'none', color: '#000'}} to='/contact-us'>Contact Us</Link>
-                    </Nav.Link>
+                    </Nav.Link> */}
                     <Nav.Link>
                         <Link style={{ textDecoration: 'none', color: '#000'}} to='/dashboard'>Dashboard</Link>
                     </Nav.Link>
