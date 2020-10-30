@@ -1,8 +1,7 @@
-# Creative Agency - A service selling SPA [`LIVE`](https://creative-agency-20.web.app/)
-
+# Creative Agency - A fullstack service selling SPA [`LIVE`](https://creative-agency-20.web.app/)
+A full stack service selling single page web application with responsive UI.
 ## Features
-This is a responsive online service selling
-SPA. It’s developed by using React, MongoDB, Firebase, JS, ES6, React, React-Router, Html, CSS and reactBootstrap.
+This is a fullstack service selling single page web application with responsive UI. It’s developed by using React, MongoDB, Firebase, JS, ES6, React, React-Router, Html, CSS and reactBootstrap.
 
 
 #### Client 
